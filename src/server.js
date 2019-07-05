@@ -6,7 +6,7 @@ const url = require('url'),
 
 class Server extends events {
 
-	constructor(uri, compress = false) {
+	constructor(uri, compress = true) {
 		super();
 		this.uri = url.parse((uri.match(/^.*?:\/\//)) ? uri : 'tcp://' + uri);
 		this.socket = {};

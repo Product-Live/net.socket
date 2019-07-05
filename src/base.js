@@ -8,7 +8,7 @@ class Client extends events {
 	constructor() {
 		super();
 		this.size = null;
-		this.compress = false;
+		this.compress = true;
 		this.buffer = Buffer.from('');
 		this.socket = null;
 	}
