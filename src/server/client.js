@@ -2,7 +2,7 @@ const base = require('../base.js');
 
 class Client extends base { // server
 
-	constructor(socket, key, compress) {
+	constructor(socket, key, compress = true) {
 		super();
 		this.compress = compress;
 		this.socket = socket;
