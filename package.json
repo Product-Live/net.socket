@@ -2,13 +2,13 @@
 	"name": "@product-live/net.socket",
 	"version": "1.0.9",
 	"keywords": [],
-	"homepage": "https://github.com/anzerr/net.socket#readme",
+	"homepage": "https://github.com/Product-Live/net.socket#readme",
 	"bugs": {
-		"url": "https://github.com/anzerr/net.socket/issues"
+		"url": "https://github.com/Product-Live/net.socket/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:anzerr/net.socket.git"
+		"url": "git@github.com:Product-Live/net.socket.git"
 	},
 	"license": "MIT",
 	"author": "anzerr",
@@ -21,11 +21,11 @@
 		"extends": "eslint-config-basic"
 	},
 	"dependencies": {
-		"type.util": "git+https://git@github.com/anzerr/type.util.git"
+		"type.util": "git+https://git@github.com/Product-Live/type.util.git"
 	},
 	"devDependencies": {
 		"eslint": "5.11.1",
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+		"eslint-config-basic": "git+https://git@github.com/Product-Live/eslintrc.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
